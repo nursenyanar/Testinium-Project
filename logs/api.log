@@ -1,0 +1,53 @@
+29-09-2021 09:36:08.437 [Gauge] [INFO] Initializing concepts cache with 0 concepts
+29-09-2021 09:36:08.445 [Gauge] [INFO] Initializing specs cache with 1 specs
+29-09-2021 09:36:08.445 [Gauge] [DEBUG] Adding specs from C:\Users\nurse\IdeaProjects\GittiGidiyor.com\specs\example.spec
+29-09-2021 09:36:08.445 [Gauge] [INFO] Initializing steps cache with 1 steps
+29-09-2021 09:36:08.445 [Gauge] [INFO] Gauge daemon initialized and listening on port: 53569
+29-09-2021 09:36:08.452 [Gauge] [DEBUG] Watching directory: C:\Users\nurse\IdeaProjects\GittiGidiyor.com\specs
+29-09-2021 09:36:08.452 [Gauge] [DEBUG] Found 1 files
+29-09-2021 09:36:16.594 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:"Vowels in English language are \"aeiou\"."}
+29-09-2021 09:36:16.595 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"Vowels in English language are {}." parameterizedStepValue:"Vowels in English language are <aeiou>." parameters:"aeiou"}}
+29-09-2021 09:36:16.710 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:"Vowels in English language are <vowelString>."}
+29-09-2021 09:36:16.713 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"Vowels in English language are {}." parameterizedStepValue:"Vowels in English language are <vowelString>." parameters:"vowelString"}}
+29-09-2021 09:36:16.718 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:"The word \"gauge\" has \"3\" vowels."}
+29-09-2021 09:36:16.719 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"The word {} has {} vowels." parameterizedStepValue:"The word <gauge> has <3> vowels." parameters:"gauge" parameters:"3"}}
+29-09-2021 09:36:16.720 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:"The word <word> has <expectedCount> vowels."}
+29-09-2021 09:36:16.721 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"The word {} has {} vowels." parameterizedStepValue:"The word <word> has <expectedCount> vowels." parameters:"word" parameters:"expectedCount"}}
+29-09-2021 09:36:16.725 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:"Almost all words have vowels" hasInlineTable:true}
+29-09-2021 09:36:16.727 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"Almost all words have vowels {}" parameterizedStepValue:"Almost all words have vowels <table>" parameters:"table"}}
+29-09-2021 09:36:16.728 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:"Almost all words have vowels <wordsTable>"}
+29-09-2021 09:36:16.729 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"Almost all words have vowels {}" parameterizedStepValue:"Almost all words have vowels <wordsTable>" parameters:"wordsTable"}}
+29-09-2021 09:36:23.201 [Gauge] [DEBUG] Spec file removed: C:\Users\nurse\IdeaProjects\GittiGidiyor.com\specs\example.spec
+29-09-2021 09:37:44.950 [Gauge] [DEBUG] Spec file added / modified: C:\Users\nurse\IdeaProjects\GittiGidiyor.com\specs\Gittigidiyor.spec
+29-09-2021 09:37:44.951 [Gauge] [DEBUG] Spec file added / modified: C:\Users\nurse\IdeaProjects\GittiGidiyor.com\specs\Gittigidiyor.spec
+29-09-2021 09:37:44.966 [Gauge] [DEBUG] Spec file added / modified: C:\Users\nurse\IdeaProjects\GittiGidiyor.com\specs\Gittigidiyor.spec
+29-09-2021 09:38:23.457 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:"www.gittigidiyor.com sitesi acilir"}
+29-09-2021 09:38:23.462 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"www.gittigidiyor.com sitesi acilir" parameterizedStepValue:"www.gittigidiyor.com sitesi acilir"}}
+29-09-2021 09:38:23.484 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:"Ana sayfa acildigi kontrol edilir"}
+29-09-2021 09:38:23.487 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"Ana sayfa acildigi kontrol edilir" parameterizedStepValue:"Ana sayfa acildigi kontrol edilir"}}
+29-09-2021 09:38:23.488 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:"Siteye login olunur"}
+29-09-2021 09:38:23.489 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"Siteye login olunur" parameterizedStepValue:"Siteye login olunur"}}
+29-09-2021 09:38:23.490 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:"Login islemi kontrol edilir"}
+29-09-2021 09:38:23.490 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"Login islemi kontrol edilir" parameterizedStepValue:"Login islemi kontrol edilir"}}
+29-09-2021 09:38:23.492 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:"Arama kutucuguna \"bilgisayar\" kelimesi girilir"}
+29-09-2021 09:38:23.493 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"Arama kutucuguna {} kelimesi girilir" parameterizedStepValue:"Arama kutucuguna <bilgisayar> kelimesi girilir" parameters:"bilgisayar"}}
+29-09-2021 09:38:23.493 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:"Arama kutucuguna <urunAdi> kelimesi girilir"}
+29-09-2021 09:38:23.493 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"Arama kutucuguna {} kelimesi girilir" parameterizedStepValue:"Arama kutucuguna <urunAdi> kelimesi girilir" parameters:"urunAdi"}}
+29-09-2021 09:38:23.494 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:"Arama sonuclari sayfasindan ikinci sayfa acilir"}
+29-09-2021 09:38:23.494 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"Arama sonuclari sayfasindan ikinci sayfa acilir" parameterizedStepValue:"Arama sonuclari sayfasindan ikinci sayfa acilir"}}
+29-09-2021 09:38:23.495 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:"Ikinci sayfanin acildigi kontrol edilir"}
+29-09-2021 09:38:23.495 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"Ikinci sayfanin acildigi kontrol edilir" parameterizedStepValue:"Ikinci sayfanin acildigi kontrol edilir"}}
+29-09-2021 09:38:23.496 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:"Rastgele bir urun secilir"}
+29-09-2021 09:38:23.497 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"Rastgele bir urun secilir" parameterizedStepValue:"Rastgele bir urun secilir"}}
+29-09-2021 09:38:23.497 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:"Secilen urun sepete eklenir"}
+29-09-2021 09:38:23.498 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"Secilen urun sepete eklenir" parameterizedStepValue:"Secilen urun sepete eklenir"}}
+29-09-2021 09:38:23.499 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:"Adet arttirilarak urun adedinin 2 oldugu dogrulanir"}
+29-09-2021 09:38:23.499 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"Adet arttirilarak urun adedinin 2 oldugu dogrulanir" parameterizedStepValue:"Adet arttirilarak urun adedinin 2 oldugu dogrulanir"}}
+29-09-2021 09:38:23.500 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:"Urun sayfasindaki fiyat ile sepette yer alan urun fiyatinin dogrulugu karsilastirilir"}
+29-09-2021 09:38:23.501 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"Urun sayfasindaki fiyat ile sepette yer alan urun fiyatinin dogrulugu karsilastirilir" parameterizedStepValue:"Urun sayfasindaki fiyat ile sepette yer alan urun fiyatinin dogrulugu karsilastirilir"}}
+29-09-2021 09:38:23.501 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:"Urun sepetten silinerek sepetin bos oldugu kontrol edilir"}
+29-09-2021 09:38:23.502 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"Urun sepetten silinerek sepetin bos oldugu kontrol edilir" parameterizedStepValue:"Urun sepetten silinerek sepetin bos oldugu kontrol edilir"}}
+29-09-2021 09:49:52.729 [Gauge] [DEBUG] Spec file added / modified: C:\Users\nurse\IdeaProjects\GittiGidiyor.com\specs\Gittigidiyor.spec
+29-09-2021 09:49:52.760 [Gauge] [DEBUG] Spec file added / modified: C:\Users\nurse\IdeaProjects\GittiGidiyor.com\specs\Gittigidiyor.spec
+29-09-2021 09:54:09.556 [Gauge] [DEBUG] Spec file added / modified: C:\Users\nurse\IdeaProjects\GittiGidiyor.com\specs\Gittigidiyor.spec
+29-09-2021 09:54:09.563 [Gauge] [DEBUG] Spec file added / modified: C:\Users\nurse\IdeaProjects\GittiGidiyor.com\specs\Gittigidiyor.spec

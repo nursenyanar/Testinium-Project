@@ -1,0 +1,75 @@
+{"logLevel":"debug","message":"multithreading is set to false"}
+{"logLevel":"debug","message":"Using reflection to scan dependencies for gauge implementations..."}
+log4j:WARN No appenders could be found for logger (io.grpc.netty.shaded.io.netty.util.internal.logging.InternalLoggerFactory).
+log4j:WARN Please initialize the log4j system properly.
+{"logLevel":"debug","message":"gauge-java took 1001milliseconds to load and scan. This should be less than 'runner_connection_timeout' config value."}
+{"logLevel":"debug","message":"run 'gauge config runner_connection_timeout' and verify that it is < 1001"}
+{"logLevel":"debug","message":"starting gRPC server..."}
+{"logLevel":"debug","message":"started gRPC server on port 64603"}
+{"logLevel":"info","message":"Listening on port:64603"}
+{"logLevel":"debug","message":"Scanning packages for steps"}
+{"logLevel":"debug","message":"Comparing 'AutomationBase.steps.BaseSteps.productSelect' and 'AutomationBase.steps.BaseSteps.productSelect'"}
+{"logLevel":"debug","message":"Found Rastgele bir urun secilir in current project scope."}
+{"logLevel":"debug","message":"Comparing 'AutomationBase.steps.BaseSteps.SecondPage' and 'AutomationBase.steps.BaseSteps.SecondPage'"}
+{"logLevel":"debug","message":"Found Arama sonuclari sayfasindan ikinci sayfa acilir in current project scope."}
+{"logLevel":"debug","message":"Comparing 'AutomationBase.steps.BaseSteps.productPriceCheck' and 'AutomationBase.steps.BaseSteps.productPriceCheck'"}
+{"logLevel":"debug","message":"Found Urun sayfasindaki fiyat ile sepette yer alan urun fiyatinin dogrulugu karsilastirilir in current project scope."}
+{"logLevel":"debug","message":"Comparing 'AutomationBase.steps.BaseSteps.productSearch' and 'AutomationBase.steps.BaseSteps.productSearch'"}
+{"logLevel":"debug","message":"Found Arama kutucuguna {} kelimesi girilir in current project scope."}
+{"logLevel":"debug","message":"Comparing 'AutomationBase.steps.BaseSteps.homeControl' and 'AutomationBase.steps.BaseSteps.homeControl'"}
+{"logLevel":"debug","message":"Found Ana sayfa acildigi kontrol edilir in current project scope."}
+{"logLevel":"debug","message":"Comparing 'AutomationBase.steps.BaseSteps.basketCheck' and 'AutomationBase.steps.BaseSteps.basketCheck'"}
+{"logLevel":"debug","message":"Found Urun sepetten silinerek sepetin bos oldugu kontrol edilir in current project scope."}
+{"logLevel":"debug","message":"Comparing 'AutomationBase.steps.BaseSteps.SecondPageCheck' and 'AutomationBase.steps.BaseSteps.SecondPageCheck'"}
+{"logLevel":"debug","message":"Found Ikinci sayfanin acildigi kontrol edilir in current project scope."}
+{"logLevel":"debug","message":"Comparing 'AutomationBase.steps.BaseSteps.productNumberCheck' and 'AutomationBase.steps.BaseSteps.productNumberCheck'"}
+{"logLevel":"debug","message":"Found Adet arttirilarak urun adedinin 2 oldugu dogrulanir in current project scope."}
+{"logLevel":"debug","message":"Comparing 'AutomationBase.steps.BaseSteps.addBasket' and 'AutomationBase.steps.BaseSteps.addBasket'"}
+{"logLevel":"debug","message":"Found Secilen urun sepete eklenir in current project scope."}
+{"logLevel":"debug","message":"Comparing 'AutomationBase.steps.BaseSteps.loginCheck' and 'AutomationBase.steps.BaseSteps.loginCheck'"}
+{"logLevel":"debug","message":"Found Login islemi kontrol edilir in current project scope."}
+{"logLevel":"debug","message":"Comparing 'AutomationBase.steps.BaseSteps.homePage' and 'AutomationBase.steps.BaseSteps.homePage'"}
+{"logLevel":"debug","message":"Found www.gittigidiyor.com sitesi acilir in current project scope."}
+{"logLevel":"debug","message":"Comparing 'AutomationBase.steps.BaseSteps.login' and 'AutomationBase.steps.BaseSteps.login'"}
+{"logLevel":"debug","message":"Found Siteye login olunur in current project scope."}
+{"logLevel":"debug","message":"Scanning packages for hooks"}
+{"logLevel":"debug","message":"Scanned steps (using static parsing + reflections): "}
+{"logLevel":"debug","message":"\tIkinci sayfanin acildigi kontrol edilir : public void SecondPageCheck()"}
+{"logLevel":"debug","message":"\tAdet arttirilarak urun adedinin 2 oldugu dogrulanir : public void productNumberCheck() throws InterruptedException"}
+{"logLevel":"debug","message":"\tRastgele bir urun secilir : public void productSelect() throws InterruptedException"}
+{"logLevel":"debug","message":"\tAna sayfa acildigi kontrol edilir : public void homeControl()"}
+{"logLevel":"debug","message":"\tUrun sepetten silinerek sepetin bos oldugu kontrol edilir : public void basketCheck() throws InterruptedException"}
+{"logLevel":"debug","message":"\tUrun sayfasindaki fiyat ile sepette yer alan urun fiyatinin dogrulugu karsilastirilir : public void productPriceCheck() throws InterruptedException"}
+{"logLevel":"debug","message":"\tSiteye login olunur : public void login() throws InterruptedException"}
+{"logLevel":"debug","message":"\tLogin islemi kontrol edilir : public void loginCheck()"}
+{"logLevel":"debug","message":"\twww.gittigidiyor.com sitesi acilir : public void homePage() throws InterruptedException"}
+{"logLevel":"debug","message":"\tArama kutucuguna {} kelimesi girilir : public void productSearch(String urunAdi) throws InterruptedException"}
+{"logLevel":"debug","message":"\tSecilen urun sepete eklenir : public void addBasket() throws InterruptedException"}
+{"logLevel":"debug","message":"\tArama sonuclari sayfasindan ikinci sayfa acilir : public void SecondPage() throws InterruptedException"}
+{"logLevel":"debug","message":"Executing 'www.gittigidiyor.com sitesi acilir' using 'class AutomationBase.steps.BaseSteps.homePage"}
+Starting ChromeDriver 94.0.4606.61 (418b78f5838ed0b1c69bb4e51ea0252171854915-refs/branch-heads/4606@{#1204}) on port 38525
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Eyl 29, 2021 9:53:05 ÖÖ org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+{"logLevel":"debug","message":"Executing 'Ana sayfa acildigi kontrol edilir' using 'class AutomationBase.steps.BaseSteps.homeControl"}
+Ana sayfa acildi
+{"logLevel":"debug","message":"Executing 'Arama kutucuguna {} kelimesi girilir' using 'class AutomationBase.steps.BaseSteps.productSearch"}
+{"logLevel":"debug","message":"Executing 'Arama sonuclari sayfasindan ikinci sayfa acilir' using 'class AutomationBase.steps.BaseSteps.SecondPage"}
+{"logLevel":"debug","message":"Executing 'Ikinci sayfanin acildigi kontrol edilir' using 'class AutomationBase.steps.BaseSteps.SecondPageCheck"}
+Ikinci sayfa acildi
+{"logLevel":"debug","message":"Executing 'Rastgele bir urun secilir' using 'class AutomationBase.steps.BaseSteps.productSelect"}
+ Size : 32
+Random Choose Number:18
+{"logLevel":"debug","message":"Executing 'Secilen urun sepete eklenir' using 'class AutomationBase.steps.BaseSteps.addBasket"}
+{"logLevel":"debug","message":"Executing 'Urun sayfasindaki fiyat ile sepette yer alan urun fiyatinin dogrulugu karsilastirilir' using 'class AutomationBase.steps.BaseSteps.productPriceCheck"}
+Urun fiyati sepetteki ile aynidir
+{"logLevel":"debug","message":"Executing 'Adet arttirilarak urun adedinin 2 oldugu dogrulanir' using 'class AutomationBase.steps.BaseSteps.productNumberCheck"}
+Sepetteki urun adedi ikidir
+{"logLevel":"debug","message":"Executing 'Urun sepetten silinerek sepetin bos oldugu kontrol edilir' using 'class AutomationBase.steps.BaseSteps.basketCheck"}
+Urun sepetten silindi
+{"logLevel":"debug","message":"Killing Java runner..."}
+{"logLevel":"debug","message":"Stopping execution pool..."}
+{"logLevel":"debug","message":"Shutting down grpc server..."}
+{"logLevel":"debug","message":"Runner killed gracefully."}
